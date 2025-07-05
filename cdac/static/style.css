@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.glass-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    width: 600px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #00c6ff;
+    color: #fff;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0072ff;
+}
+
+.result {
+    margin-top: 20px;
+    background: rgba(0,0,0,0.3);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.result li {
+    margin: 10px 0;
+    cursor: pointer;
+    line-height: 1.6;
+}
+
+.result li:hover {
+    text-decoration: underline;
+}
